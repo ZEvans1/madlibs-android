@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/noun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/verb"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/verb"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Noun" />
+
+    <EditText
+        android:id="@+id/verb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Verb" />
+
+    <EditText
+        android:id="@+id/adjective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/verb"
+        android:layout_alignStart="@+id/verb"
+        android:layout_below="@+id/verb"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Adjective" />
+
+    <Button
+        android:id="@+id/buttonMadLib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/adjective"
+        android:layout_alignLeft="@+id/adjective"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/adjective"
+        android:layout_alignStart="@+id/adjective"
+        android:layout_marginBottom="20dp"
+        android:text="Button" />
+
+</RelativeLayout>
